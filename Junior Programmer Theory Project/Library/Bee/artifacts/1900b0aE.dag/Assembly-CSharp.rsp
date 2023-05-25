@@ -350,6 +350,7 @@
 "Assets/Scripts/MagneticBall.cs"
 "Assets/Scripts/Manager.cs"
 "Assets/Scripts/RubberBall.cs"
+"Assets/Scripts/TitleManager.cs"
 -langversion:9.0
 
 /deterministic
