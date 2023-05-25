@@ -6,7 +6,7 @@ public class MagneticBall : Ball
 {
     GameObject otherMagneticBall;
     float magneticForce = -400.0f;
-    protected override void Move()
+    protected override void Move() // POLYMORPHISM
     {
         if (otherMagneticBall == null)
         {

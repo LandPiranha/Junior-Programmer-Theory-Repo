@@ -36,7 +36,7 @@ public class Ball : MonoBehaviour
     {
         if (transform.position.y < -2.0f)
         {
-            Manager.Instance.SpawnBall(gameObject);
+            Manager.Instance.SpawnBall(gameObject); // ABSTRACTION
             Destroy(gameObject);
         }
 

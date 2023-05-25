@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Manager : MonoBehaviour
 {
-    public static Manager Instance { get; private set; }
+    public static Manager Instance { get; private set; } // ENCAPSULATION
 
     [SerializeField] GameObject aluminumBall;
     [SerializeField] GameObject rubberBall;

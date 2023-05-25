@@ -6,9 +6,9 @@ public class RubberBall : Ball
 {
     float jumpForce = 100.0f;
 
-    protected override void Move()
+    protected override void Move() // INHERITANCE
     {
-        base.Move();
+        base.Move(); 
         ballRigidBody.AddForce(Vector3.up * Time.deltaTime * jumpForce, ForceMode.Impulse);
     }
 }
